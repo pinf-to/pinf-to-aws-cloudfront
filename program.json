@@ -1,0 +1,9 @@
+{
+	"config": {
+		"github.com/pinf-to/to.pinf.lib/0": {
+			"programs": {
+				"demo": "./demo/program.json"
+			}
+		}
+	}
+}

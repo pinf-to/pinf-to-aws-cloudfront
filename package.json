@@ -1,0 +1,20 @@
+{
+  "name": "pinf-to-aws-cloudfront",
+  "version": "0.1.0",
+  "bin": {
+    "pinf-publish": "./bin/pinf-publish",
+    "pinf-run": "./bin/pinf-run"
+  },
+  "dependencies": {
+    "to.pinf.lib": "0.1.x"
+  },
+  "scripts": {
+    "publish": "cd demo ; npm run-script build ; cd .. ; bin/pinf-publish",
+    "run": "bin/pinf-run"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
+  }
+}

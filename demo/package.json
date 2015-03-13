@@ -1,0 +1,11 @@
+{
+  "main": "./demo.js",
+  "exports": {
+    "bundles": {
+      "demo.js": "./demo.js"
+    }
+  },
+  "scripts": {
+    "build": "rm -Rf .rt ; ../node_modules/.bin/pinf-bundle"
+  }
+}
