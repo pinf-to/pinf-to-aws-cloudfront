@@ -6,6 +6,8 @@
     "pinf-run": "./bin/pinf-run"
   },
   "dependencies": {
+    "aws-sdk": "^2.1.17",
+    "s3": "^4.4.0",
     "to.pinf.lib": "0.1.x"
   },
   "scripts": {
