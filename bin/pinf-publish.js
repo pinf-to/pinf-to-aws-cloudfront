@@ -243,6 +243,7 @@ require("to.pinf.lib/lib/publish").for(module, function (API, callback) {
 						return API.FS.writeFile(pubProgramDescriptorPath, JSON.stringify(descriptor, null, 4), callback);
 					}
 
+					// TODO: Use `pinf-to-aws-s3`
 					function ensureUploaded (callback) {
 
 						var bucketName = programName;
